@@ -1,2 +1,4 @@
 github.com/cenk/backoff v2.1.1+incompatible h1:gaShhlJc32b7ht9cwld/ti0z7tJOf69oUEA8jJNYV48=
 github.com/cenk/backoff v2.1.1+incompatible/go.mod h1:7FtoeaSnHoZnmZzz47cM35Y9nSW7tNyaidugnHTaFDE=
+github.com/cenk/backoff v2.2.1+incompatible h1:djdFT7f4gF2ttuzRKPbMOWgZajgesItGLwG5FTQKmmE=
+github.com/cenk/backoff v2.2.1+incompatible/go.mod h1:7FtoeaSnHoZnmZzz47cM35Y9nSW7tNyaidugnHTaFDE=
