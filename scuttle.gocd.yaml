@@ -7,7 +7,7 @@ common:
           SKIP_ECR_PUSH: "true"
         jobs:
           Build:
-            elastic_profile_id: gocd-test-agent-dind
+            elastic_profile_id: gocd-agent-dind-2023
             artifacts:
               - build:
                   source: cruise-output/buildReport*.json
@@ -15,9 +15,8 @@ common:
                   source: devBranchRevision.json
             tasks:
               - script: |
-                  git clone git@github.com:CognitiveScale/gocd-pipeline-scripts.git
-                  ./gocd-pipeline-scripts/common/c12e-common.sh dev
-                  ./gocd-pipeline-scripts/common/sonar-scan.sh scan
+                  c12e-common.sh dev
+                  sonar-scan.sh scan
 pipelines:
   scuttle:
     group: fabric6
