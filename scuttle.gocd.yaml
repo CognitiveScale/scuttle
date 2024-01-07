@@ -5,6 +5,7 @@ common:
         clean_workspace: true
         environment_variables:
           SKIP_ECR_PUSH: "true"
+          SONAR_USER_HOME: "/tmp"
         jobs:
           Build:
             elastic_profile_id: gocd-agent-dind-2023
